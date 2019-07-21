@@ -15,4 +15,4 @@ function deleteFromObjectByKey(object, key){
   delete object.key;
   return object;
 }
-deleteFromObjectByKey(recipes, )
+deleteFromObjectByKey(recipes, 'prop');
