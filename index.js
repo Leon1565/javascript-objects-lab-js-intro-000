@@ -10,4 +10,4 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
   return object;
 }
-destructivelyUpdateObjectWithKeyAndValue(recipes, )
+destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop 1', 1);
